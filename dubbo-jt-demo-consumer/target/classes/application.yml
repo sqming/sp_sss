@@ -1,0 +1,9 @@
+server:
+  port: 9001
+dubbo:
+  scan:
+    basePackages: com.jt
+  application:
+    name: consumer-user
+  registry:
+    address: zookeeper://192.168.72.129:2181?backup=192.168.72.129:2182,192.168.72.129:2183
