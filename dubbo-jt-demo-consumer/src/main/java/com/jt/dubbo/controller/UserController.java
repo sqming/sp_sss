@@ -11,7 +11,7 @@ import com.jt.dubbo.service.UserService;
 
 @RestController
 public class UserController {
-	
+	//
 	/**
 	 * springboot利用dubbo注解实例化接口悐
 	 * timeout=300 定义超时时间
